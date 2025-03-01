@@ -35,3 +35,12 @@ company_employees["Engineering"]["David"] = {"age": 27, "role": "Data Scientist"
 
 
 print(company_employees)
+total_employees = count_employees(company_employees)
+print("Total number of employees:",total_employees)
+
+print(" ")
+
+dict1= {"Alice": 10, "Bob": 20, "Charlie": 10, "David": 30}
+expected_output = dict_flip(dict1)
+print(expected_output)
+
