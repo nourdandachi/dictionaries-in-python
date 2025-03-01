@@ -1,4 +1,3 @@
-# Dictionary storing employees in different departments
 company_employees = {
     "Engineering": {
         "Alice": {"age": 30, "role": "Software Engineer"},
@@ -10,3 +9,7 @@ company_employees = {
 }
 
 print (company_employees)
+company_employees["Engineering"]["David"] = {"age": 27, "role": "Data Scientist"}
+
+
+print(company_employees)
