@@ -6,6 +6,19 @@ def count_employees(dict):
     return total
 
 
+def dict_flip(dict):
+    flipped_dict= {}
+
+    for name, age in dict.items():
+        if age in flipped_dict:
+            flipped_dict[age].append(name)
+        else:
+            flipped_dict[age] = [name]
+
+    return flipped_dict
+
+
+
 
 company_employees = {
     "Engineering": {
