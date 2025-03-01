@@ -1,3 +1,12 @@
+def count_employees(dict):
+    total = 0
+    for department in dict.values():
+        total += len(department)
+    
+    return total
+
+
+
 company_employees = {
     "Engineering": {
         "Alice": {"age": 30, "role": "Software Engineer"},
